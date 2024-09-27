@@ -12,7 +12,7 @@ import sys
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖")
 st.title("🤖 AI Chatbot"+sys.version)
 # 侧边栏配置
-api_key = st.sidebar.text_input("API Key", type="password", value='')
+api_key = st.sidebar.text_input("API Key", type="password", value='sk-1fb7e386bfa941eb84dce4355b6c3875')
 base_url = st.sidebar.text_input("Base URL", value="https://api.deepseek.com")
 temperature = st.sidebar.slider("Temperature", min_value=0.0, max_value=1.0, value=0.2, step=0.1)
 max_turns = st.sidebar.slider("Max Turns", min_value=1, max_value=10, value=5, step=1)
