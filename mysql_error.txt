@@ -1,6 +1,6 @@
 [
             {
-                "log": "2024-10-22T21:19:48.988664Z 3852078 [Warning] [MY-010045] [Server] Event Scheduler: [root@%][info_collection.\u4f30\u503c\u66f4\u65b0] Setting user variables within expressions is deprecated and will be removed in a future release. Consider alternatives: 'SET variable=expression, ...', or 'SELECT expression(s) INTO variables(s)'.",
+                "log": "[MY-010045]",
                 "time": "2024-10-22T21:19:48.988804526Z",
                 "namespace": "middleware",
                 "pod": "sndb-mysql-0",
